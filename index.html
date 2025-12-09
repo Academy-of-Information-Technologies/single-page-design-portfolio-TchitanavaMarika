@@ -1,45 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Single-page design portfolio</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./src/output.css" />
 
-  Free Consultation
+    <title>Frontend Mentor | Single-page design portfolio</title>
+  </head>
+  <body
+    class="pr-4 pl-4 bg-[#FFF7F0] flex flex-col justify-center items-center md:pl-[165px] md:pr-[165px]"
+  >
+    <header class="pt-[18px] pr-4 pb-[34px] pl-4 flex w-full justify-between ">
+      <img src="./assets/logo.svg" alt="logo" />
+      <button class=" w-44 h-12 bg-[Black] rounded-[28px] text-[white] md:bg-[#755CDE]">
+        Free Consultation
+      </button>
+    </header>
+    <div class="flex justify-center flex-col items-center gap-4 md:w-[751px]  ">
+      <h1
+        class="font-Plus Jakarta Sans font-bold text-[36px] text-center text-[Black] md:text-[56px]"
+      >
+        Design solutions made easy
+      </h1>
+      <p
+        class="font-Plus Jakarta Sans font-medium text-[16px] text-center text-[#7A746E] md:text-[18px]"
+      >
+        With over ten years of experience in various design disciplines, I’m
+        your one-stop shop for your design needs.
+      </p>
+    </div>
+    <div class="flex justify-center flex-col pt-8 items-center gap-6 md:flex-row ">
+      <div class="w-[343px] h-[364px] rounded-lg bg-[#755CDE] relative">
+        <img
+          class="absolute top-6 right-5"
+          src="./assets/pattern-graphic-design.svg"
+          alt="grafic"
+        />
+        <h3
+          class="absolute bottom-4 left-4 text-[white] font-Plus Jakarta Sans font-bold text-[24px]"
+        >
+          Graphic Design
+        </h3>
+      </div>
+      <div>
+        <div class="flex gap-[25px] pb-[25px]">
+        <div class="w-[159px] h-[182px] relative bg-[#F6A560] rounded-lg">
+          <img
+            class="absolute top-6 left-18"
+            src="./assets/pattern-ui-ux.svg"
+            alt="pattern"
+          />
+          <h3
+            class="absolute bottom-4 left-4 text-[white] font-Plus Jakarta Sans font-bold text-[24px] "
+          >
+            UI/UX
+          </h3>
+        </div>
+        <div class="w-[159px] h-[182px] relative bg-[#F39E9E] rounded-lg ">
+          <img
+            class="absolute top-6 left-18"
+            src="./assets/pattern-apps.svg"
+            alt="pattern"
+          />
+          <h3
+            class="absolute bottom-4 left-4 text-[white] font-Plus Jakarta Sans font-bold text-[24px]"
+          >
+            Apps
+          </h3>
+        </div>
+      </div>
+      
+          <div class="relative w-[343px] h-[158px] rounded-lg bg-[#EB7565]">
+            <img
+              class="absolute top-6 right-5"
+              src="./assets/pattern-illustrations.svg"
+              alt="svg"
+            />
+            <h3
+              class="absolute bottom-4 left-4 text-[white] font-Plus Jakarta Sans font-bold text-[24px]"
+            >
+              Illustrations
+            </h3>
+          </div>
+       
+        
+        
+      
+      
+      
+      </div>
+      <div class="flex justify-center flex-col items-center gap-6    ">
+        
 
-  Design solutions made easy
+        <div class="relative w-[343px] h-[158px] rounded-lg bg-[#61C4B7]  md:h-[182px]">
+          <img
+            class="absolute top-6 right-5"
+            src="./assets/pattern-photography.svg"
+            alt="svg"
+          />
+          <h3
+            class="absolute bottom-4 left-4 text-[white] font-Plus Jakarta Sans font-bold text-[24px]"
+          >
+            Photography
+          </h3>
+        </div>
 
-  With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.
+        <div class="relative w-[343px] h-[158px] rounded-lg bg-[#552049] md:h-[158px]">
+          <img
+            class="absolute top-6 right-5"
+            src="./assets/pattern-motion-graphics.svg"
+            alt="svg"
+          />
+          <h3
+            class="absolute bottom-4 left-4 text-[white] font-Plus Jakarta Sans font-bold text-[24px]"
+          >
+            Motion Graphics
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-center flex-col items-center md:flex-row  pt-[100px]">
+      <img
+        class="w-[300px] h-[300px] md:w-[445px] md:h-[445px] md:pr-[125px]"
+        src="./assets/image-amy.webp"
+        alt="image-amy"
+      />
+      <div class="flex flex-col justify-center items-center">
+      <h2
+        class="pt-10 font-Plus Jakarta Sans font-bold text-[26px] text-center text-[Black]"
+      >
+        I’m Amy, and I’d love to work on your next project
+      </h2>
+      <p
+        class="pb-6 pt-6 font-Plus Jakarta Sans font-medium text-[16px] text-center text-[#7A746E]"
+      >
+        I love working with others to create beautiful design solutions. I’ve
+        designed everything from brand illustrations to complete mobile apps.
+        I’m also handy with a camera!
+      </p>
+      <button class="w-44 h-12 bg-[#EB7565] rounded-[28px] text-[white]">
+        Free Consultation
+      </button>
+    </div>
+    </div>
+    <div class="">
+      <h2
+        class="pb-8 pt-[100px] font-Plus Jakarta Sans font-bold text-[24px] text-center text-[Black] md:text-[32px]"
+      >
+        My Work
+      </h2>
+      <div class="flex justify-center gap-[15px] overflow-x-hidden md:gap-[40px] w-full">
+        <img class="w-[270px] md:w-[540px]" src="./assets/image-slide-2.jpg" alt="slide2" />
+        <img class="w-[270px] md:w-[540px]" src="./assets/image-slide-3.jpg" alt="slade3" />
+        <img class="w-[270px] md:w-[540px]" src="./assets/image-slide-4.jpg" alt="slade4" />
+      </div>
+      <div class="flex justify-center gap-4 pt-8 pb-[100px]">
+        <button class="bg-[black] w-16 h-16 rounded-full pl-[25px]">
+          <img src="./assets/icon-arrow-left.svg" alt="left" />
+        </button>
+        <button class="bg-[black] w-16 h-16 rounded-full pl-[25px]">
+          <img src="./assets/icon-arrow-right.svg" alt="left" />
+        </button>
+      </div>
+    </div>
 
-  Graphic Design
-  UI/UX
-  Apps
-  Photography
-  Illustrations
-  Motion Graphics
-
-  I’m Amy, and I’d love to work on your next project
-
-  I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations 
-  to complete mobile apps. I’m also handy with a camera!
-
-  Free Consultation
-
-  My Work
-
-  Book a call with me
-
-  I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a 
-  free consultation. Then we can move forward from there.
-
-  Free Consultation
-
-  Free Consultation
-
-</body>
+    <div class="flex justify-center items-center w-[343px] h-[352px] rounded-xl bg-[black] flex-col gap-6 pl-6 pr-6  md:w-[1110px] md:flex-row">
+    <div class="md:flex flex-col">
+      <h2 class="text-[white] font-Plus Jakarta Sans font-bold text-[24px] md:w-[540px] md:text-start md:text-[40px]">
+        Book a call with me
+      </h2>
+      <p class="font-Plus Jakarta Sans font-medium text-[16px] text-center text-[#FFF7F0] md:w-[540px] md:text-start md:text-[18px]">
+        I’d love to have a chat to see how I can help you. The best first step
+        is for us to discuss your project during a free consultation. Then we
+        can move forward from there.
+      </p>
+    </div>
+    <div>
+      <button class="w-44 h-12 bg-[#EB7565] rounded-[28px] text-[white] md:bg-[#F6A560]">
+        Free Consultation
+      </button>
+    </div>
+    </div>
+    <footer class="flex w-full gap-[119px] pt-[42px] pb-[34px] md:justify-between md:gap-[819px] ">
+      <img src="./assets/logo.svg" alt="logo" />
+      <button class="mt-2.5 w-44 h-12 bg-[Black] rounded-[28px] text-[white] md:bg-[#755CDE]">
+        Free Consultation
+      </button>
+    </footer>
+  </body>
 </html>
